@@ -9,6 +9,7 @@ export default {
         secondary: "#ef863e",
       },
     },
+    
   },
   plugins: [],
 };
