@@ -20,8 +20,9 @@ const Home = ({}) => {
           <NoteCard
             title="Gym at 4"
             date="19th April 2024"
-            content="Meeting the mandem at 4"
-            tags=""
+            content="  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, libero similique! Facere quibusdam magnam fugit similique quaerat aspernatur iure dolore eaque, labore molestiae quos vitae consequuntur distinctio, iste nulla! Temporibus!
+            "
+            tags="#brocode"
             isPinned={true}
             onEdit={() => {}}
             onDelete={() => {}}

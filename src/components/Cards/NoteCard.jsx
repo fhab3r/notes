@@ -21,14 +21,14 @@ const NoteCard = ({
         </div>
 
         <MdOutlinePushPin
-          className={`icon-bth ${isPinned ? "text-primary" : "text-slate-300"}`}
+          className={`icon-btn ${isPinned ? "text-primary" : "text-slate-300"}`}
           onClick={onPinNote}
         />
       </div>
       <p className="">{content?.slice(0, 60)}</p>
-      <div className=" flex items-center gap-2">
+      <div className=" flex items-center justify-between mt-2">
         <div className="text-xs text-slate-500">{tags}</div>
-        <div className="">
+        <div className="flex items-center gap-2">
           <MdCreate
             className="icon-btn hover:text-green-500"
             onClick={onEdit}

@@ -14,7 +14,7 @@ const AddEditNotes = ({ noteData, type, onClose }) => {
   const addNewNote = async () => {};
 
   //Edit Note
-
+ 
   const editNote = async () => {};
 
   const handleAddNote = () => {
@@ -55,7 +55,7 @@ const AddEditNotes = ({ noteData, type, onClose }) => {
       </div>
       <div className="flex flex-col gap-2 mt-4">
         <label className="input-label">CONTENT</label>
-        <input
+        <textarea
           type="text"
           className="text-2xl text-slate-950 outline-none bg-slate-50 p-2 rounded"
           placeholder="Content"
@@ -69,7 +69,7 @@ const AddEditNotes = ({ noteData, type, onClose }) => {
           TAGS
         </label>
         <TagInput tags={tags} setTags={setTags} />
-      </div>{" "}
+      </div>
       {error && <p className="text-red-500 text-xs pb-1"> {error}</p>}
       <button
         className="btn-primary font-medium mt-5 p-3"
